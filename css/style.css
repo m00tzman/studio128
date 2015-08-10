@@ -1,0 +1,58 @@
+.navbar {
+  font-family: "Trebuchet MS"; }
+  .navbar .navbar-brand {
+    letter-spacing: 3px; }
+  .navbar .navbar-right {
+    letter-spacing: 5px; }
+
+.bumper {
+  height: 800px;
+  width: 100%;
+  z-index: 0; }
+  .bumper .header {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20%;
+    color: white;
+    font-family: "Trebuchet MS";
+    padding-bottom: 15%; }
+  .bumper .subTitle {
+    font-size: 24pt;
+    letter-spacing: 25px; }
+  .bumper .mainTitle {
+    font-size: 72pt;
+    letter-spacing: 14px; }
+  .bumper .transition {
+    background-image: url("../img/transition.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    z-index: 0; }
+
+.content {
+  height: 1500px;
+  width: 80%;
+  margin: auto;
+  font-size: 14pt;
+  margin-top: 50px;
+  z-index: 2; }
+  .content .title {
+    font-size: 36pt;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin-bottom: 35px; }
+  .content .story {
+    float: left;
+    width: 50%;
+    height: 25%; }
+  .content .picture {
+    float: left;
+    background-image: url("../img/gym.jpg");
+    background-size: 50% 50%;
+    width: 25%;
+    height: 25%; }
+  .content #title-drop {
+    clear: both; }
+
+/*# sourceMappingURL=style.css.map */
