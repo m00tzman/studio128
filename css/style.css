@@ -30,29 +30,35 @@
     height: 500px;
     z-index: 0; }
 
-.content {
-  height: 1500px;
+#our-story {
+  height: 900px;
   width: 80%;
   margin: auto;
   font-size: 14pt;
   margin-top: 50px;
   z-index: 2; }
-  .content .title {
+  #our-story .title {
     font-size: 36pt;
     font-weight: lighter;
     letter-spacing: 10px;
     margin-bottom: 35px; }
-  .content .story {
+  #our-story .content {
     float: left;
     width: 50%;
-    height: 25%; }
-  .content .picture {
+    height: 25%;
+    margin-right: 50px; }
+  #our-story .picture {
     float: left;
-    background-image: url("../img/gym.jpg");
-    background-size: 50% 50%;
-    width: 25%;
-    height: 25%; }
-  .content #title-drop {
-    clear: both; }
+    max-height: 400px;
+    max-width: 400px; }
+  #our-story #title-drop {
+    clear: both;
+    padding-top: 50px; }
+
+#mission {
+  background-color: black;
+  width: 100%;
+  height: 900px;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
