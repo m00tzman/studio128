@@ -5,11 +5,11 @@
   .navbar .navbar-right {
     letter-spacing: 5px; }
 
-.bumper {
+#splash {
   height: 800px;
   width: 100%;
   z-index: 0; }
-  .bumper .header {
+  #splash .header {
     width: 1000px;
     text-align: center;
     margin: auto;
@@ -17,48 +17,56 @@
     color: white;
     font-family: "Trebuchet MS";
     padding-bottom: 15%; }
-  .bumper .subTitle {
+  #splash .subTitle {
     font-size: 24pt;
     letter-spacing: 25px; }
-  .bumper .mainTitle {
+  #splash .mainTitle {
     font-size: 72pt;
     letter-spacing: 14px; }
-  .bumper .transition {
+  #splash .transition {
     background-image: url("../img/transition.png");
     background-size: 100% 100%;
     width: 100%;
     height: 500px;
     z-index: 0; }
 
-#our-story {
+#mission {
   height: 900px;
   width: 80%;
   margin: auto;
   font-size: 14pt;
-  margin-top: 50px;
-  z-index: 2; }
-  #our-story .title {
+  padding-top: 50px;
+  margin-bottom: 50px; }
+  #mission .title {
     font-size: 36pt;
     font-weight: lighter;
     letter-spacing: 10px;
-    margin-bottom: 35px; }
-  #our-story .content {
+    margin-bottom: 35px;
+    text-align: center; }
+  #mission .content {
     float: left;
     width: 50%;
     height: 25%;
     margin-right: 50px; }
-  #our-story .picture {
+  #mission .picture {
     float: left;
     max-height: 400px;
     max-width: 400px; }
-  #our-story #title-drop {
+  #mission #title-drop {
     clear: both;
-    padding-top: 50px; }
+    padding-top: 60px; }
 
-#mission {
+#staff {
   background-color: black;
   width: 100%;
   height: 900px;
-  color: white; }
+  color: white;
+  padding-top: 50px; }
+  #staff .title {
+    font-size: 36pt;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    margin-bottom: 35px;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
