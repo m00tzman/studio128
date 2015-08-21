@@ -36,7 +36,7 @@
   margin: auto;
   font-size: 14pt;
   padding-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 200px; }
   #mission .title {
     font-size: 36pt;
     font-weight: lighter;
@@ -68,5 +68,21 @@
     letter-spacing: 10px;
     margin-bottom: 35px;
     text-align: center; }
+  #staff .intro {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 50px; }
+  #staff .trainer-profile .name {
+    font-size: 42pt;
+    letter-spacing: 20px;
+    font-weight: lighter;
+    margin-left: 10px; }
+  #staff .trainer-profile .trainer-img {
+    float: left;
+    margin-right: 20px; }
+  #staff .trainer-profile .bio {
+    width: 75%; }
 
 /*# sourceMappingURL=style.css.map */

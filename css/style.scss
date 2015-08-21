@@ -55,7 +55,7 @@
 	margin: auto;
 	font-size: 14pt;
 	padding-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 
 	.title{
 		font-size: 36pt;
@@ -92,11 +92,39 @@
 	height: 900px;
 	color: white;
 	padding-top: 50px;
+
 	.title{
 		font-size: 36pt;
 		font-weight: lighter;
 		letter-spacing: 10px;
 		margin-bottom: 35px;
 		text-align: center;
+	}
+
+	.intro{
+		width: 75%;
+		margin: auto;
+		text-align: center;
+		font-size: 16pt;
+		margin-bottom: 50px;
+	}
+
+	.trainer-profile{
+
+		.name{
+			font-size: 42pt;
+			letter-spacing: 20px;
+			font-weight: lighter;
+			margin-left: 10px;
+		}
+
+		.trainer-img{
+			float: left;
+			margin-right: 20px;
+		}
+
+		.bio{
+			width: 75%;
+		}
 	}
 }
