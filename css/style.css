@@ -59,30 +59,53 @@
 #staff {
   background-color: black;
   width: 100%;
-  height: 900px;
   color: white;
-  padding-top: 50px; }
+  padding-top: 3em;
+  position: relative;
+  height: 200em; }
   #staff .title {
     font-size: 36pt;
     font-weight: lighter;
-    letter-spacing: 10px;
-    margin-bottom: 35px;
+    letter-spacing: 0.4em;
+    margin-bottom: 0.5em;
     text-align: center; }
   #staff .intro {
-    width: 75%;
+    width: 65%;
     margin: auto;
     text-align: center;
-    font-size: 16pt;
-    margin-bottom: 50px; }
-  #staff .trainer-profile .name {
-    font-size: 42pt;
-    letter-spacing: 20px;
-    font-weight: lighter;
-    margin-left: 10px; }
-  #staff .trainer-profile .trainer-img {
-    float: left;
-    margin-right: 20px; }
-  #staff .trainer-profile .bio {
-    width: 75%; }
+    font-size: 14pt;
+    margin-bottom: 2em; }
+  #staff .trainer-a {
+    clear: both;
+    margin-top: 3em; }
+    #staff .trainer-a .name {
+      font-size: 42pt;
+      letter-spacing: 0.3em;
+      font-weight: lighter;
+      margin: 0.5em; }
+    #staff .trainer-a .trainer-img {
+      float: left;
+      margin-right: 20px; }
+    #staff .trainer-a .bio {
+      text-align: left;
+      width: 80%; }
+  #staff .trainer-b {
+    clear: both;
+    margin-top: 2.0em;
+    overflow: auto; }
+    #staff .trainer-b .name {
+      font-size: 42pt;
+      letter-spacing: 20px;
+      font-weight: lighter;
+      margin: 10px;
+      text-align: right; }
+    #staff .trainer-b .trainer-img {
+      float: right;
+      margin-right: 20px; }
+    #staff .trainer-b .bio {
+      width: 55%;
+      float: right;
+      text-align: right;
+      margin-right: 1.0em; }
 
 /*# sourceMappingURL=style.css.map */
