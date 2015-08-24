@@ -51,8 +51,9 @@ $description: Cochin, serif;
 
 
 #mission{
-	height: 1100px;
+	overflow:hidden;
 	width: 80%;
+	height: 1200px;
 	margin: auto;
 	font-size: 14pt;
 	padding-top: 40px;
@@ -70,7 +71,7 @@ $description: Cochin, serif;
 		float: left;
 		letter-spacing: 1px;
 		width: 50%;
-		height: 25%;
+		// height: 25%;
 		margin-right: 7em;
 	}
 
@@ -91,11 +92,12 @@ $description: Cochin, serif;
 #staff{
 	background-color: black;
 	width: 100%;
+	height: 115em;
 	color: white;
 	padding-top: 40px;
-	margin-top: -40px;
+	// margin-top: -40px;
 	position: relative;
-	height: 115em;
+	
 
 	.title{
 		font-size: 36pt;
@@ -172,7 +174,12 @@ $description: Cochin, serif;
 	background-color: white
 }
 
+.bumper{
+	width: 100%;
+	height: 50px;
+}
+
 #bumper{
 	width: 100%;
-	height: 35px;
+	height: 0px;
 }
