@@ -231,10 +231,11 @@
         width: this.boxWidth
       });
 
+      var transl = 'translate3d( 0px,' + Math.round(this.offsetTop) +'px, 0px)';
       this.$slider.css({
-        transform: 'translate3d(0px, 0px, 0px)',
         position: 'absolute',
-        top: this.offsetTop,
+        top:0,
+        transform: transl,
         left: this.offsetLeft,
         height: this.imageHeight,
         width: this.imageWidth,
