@@ -7,8 +7,7 @@
 
 #splash {
   height: 800px;
-  width: 100%;
-  z-index: 0; }
+  width: 100%; }
   #splash .header {
     width: 1000px;
     text-align: center;
@@ -63,7 +62,8 @@
   color: white;
   padding-top: 40px;
   margin-top: -40px;
-  position: relative; }
+  position: relative;
+  height: 115em; }
   #staff .title {
     font-size: 36pt;
     font-weight: lighter;
