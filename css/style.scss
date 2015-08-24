@@ -52,30 +52,31 @@ $description: Cochin, serif;
 
 
 #mission{
-	height: 900px;
+	height: 1100px;
 	width: 80%;
 	margin: auto;
 	font-size: 14pt;
-	padding-top: 50px;
-	margin-bottom: 200px;
+	padding-top: 40px;
+	margin-top: -40px;
 
 	.title{
 		font-size: 36pt;
 		font-weight: lighter;
 		letter-spacing: 10px;
-		margin-bottom: 35px;
+		padding-bottom: 35px;
 		text-align: center;
 	}
 
 	.content{
-		float:left;
+		float: left;
+		letter-spacing: 1px;
 		width: 50%;
 		height: 25%;
-		margin-right: 50px;
+		margin-right: 7em;
 	}
 
 	.picture{
-		float:left;
+		float: left;
 		max-height: 400px;
 		max-width: 400px;
 	}
@@ -92,9 +93,10 @@ $description: Cochin, serif;
 	background-color: black;
 	width: 100%;
 	color: white;
-	padding-top: 3em;
+	padding-top: 40px;
+	margin-top: -40px;
 	position: relative;
-	height: 200em;
+	// height: 150em;
 
 	.title{
 		font-size: 36pt;
@@ -109,7 +111,9 @@ $description: Cochin, serif;
 		margin: auto;
 		text-align: center;
 		font-size: 14pt;
-		margin-bottom: 2.0em
+		letter-spacing: 1px;
+		font-weight: lighter;
+		margin-bottom: 50px;
 	}
 
 	.trainer-a{
@@ -161,4 +165,15 @@ $description: Cochin, serif;
 			margin-right: 1.0em;
 		}
 	}
+}
+
+#facilities{
+	width: 100%;
+	height: 20em;
+	background-color: white
+}
+
+#bumper{
+	width: 100%;
+	height: 35px;
 }
