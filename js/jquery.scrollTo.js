@@ -207,4 +207,5 @@
 
 	// AMD requirement
 	return $scrollTo;
+
 });
