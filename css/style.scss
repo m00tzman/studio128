@@ -1,3 +1,7 @@
+a{
+	color: black;
+}
+
 
 .navbar{
 	font-family: "Trebuchet MS";
@@ -119,8 +123,12 @@
 		.trainer-img{
 			float: left;
 			margin-right: 20px;
+			margin-bottom: 5em;
 		}
-
+		
+		.mobile-trainer-img{
+			display: none;
+		}
 
 		.bio{
 			text-align: left;
@@ -135,7 +143,7 @@
 
 		.name{
 			font-size: 42pt;
-			letter-spacing: 20px;
+			letter-spacing: 0.3em;
 			font-weight: lighter;
 			margin: 10px;
 			text-align: right;
@@ -146,6 +154,9 @@
 			margin-right: 20px;
 		}
 
+		.mobile-trainer-img{
+			display: none;
+		}
 
 		.bio{
 			width: 55%;
@@ -170,9 +181,7 @@
 		letter-spacing: 1px;
 		font-weight: lighter;
 		margin-bottom: 50px;
-		.mobile-text{
-			display: none;
-		}
+
 	}
 
 	.next{
@@ -251,15 +260,12 @@ footer{
 		display: inline-block;
 		height: 100%;
 		width: 100%;
+		background-color: black;
 		text-align: center;
-		background-image: url("../img/splash.jpg");
 		color: white;
 		font-weight: lighter;
 		.header-info{
 			font-size: 10pt;
-		}
-		.mobile-text{
-			display: inline;
 		}
 	}
 	.button{
@@ -276,7 +282,6 @@ footer{
 		height: 100%;
 		width: 100%;
 		margin: auto;
-		text-align: center;
 
 		.trainer{
 			height: 90%;
@@ -285,21 +290,31 @@ footer{
 			clear: both;
 			padding-bottom: 10%;
 			.name{
-				font-size: 16pt;
+				font-size: 12pt;
 				text-align: center;
 			}
 			.bio{
 				width: 90%;
 				height: 100%;
+				font-size: 10pt;
 				margin: auto;
 				float: none;
-				text-align: center;
+				text-align: left;
 			}
 			.trainer-img{
-				float: none;
+				display:none;
+			}
+			.mobile-trainer-img{
 				display: block;
+				float: none;
 				margin-left: auto;
 				margin-right: auto;
+			}
+			.trainer-b{
+				.name{
+					text-align: left;
+					font-size: 12pt;
+				}
 			}
 		}
 	}
@@ -309,8 +324,7 @@ footer{
 	}
 
 	#contact{
-		background-image: url("../img/splash.jpg");
-		background-position: 10px 5px;
+		background-image: url("../img/mobilesplash.jpg");
 		color: white;
 		text-align: center;
 
@@ -319,7 +333,44 @@ footer{
 			width: 100%;
 			margin: auto;
 		}
-
 	}
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }
 
